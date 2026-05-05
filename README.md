@@ -5,12 +5,12 @@
 
 ## 📖 The Business Story
 
-A mid-size logistics and distribution company had a profitability problem — revenue was growing at 8% YoY, but **net margin was shrinking**. Leadership knew something was wrong but couldn't pinpoint where.
+A mid-size logistics and distribution company had a profitability problem, revenue was growing at 8% YoY, but **net margin was shrinking**. Leadership knew something was wrong but couldn't pinpoint where.
 
 As the Data Analyst on this engagement, I was asked to:
 1. Analyze P&L data across business units and cost centers
 2. Identify where margin erosion was happening and why
-3. Build a financial dashboard that told the story clearly — not just what happened, but what it means and what to do about it
+3. Build a financial dashboard that told the story clearly, not just what happened, but what it means and what to do about it
 4. Forecast the next two quarters using historical trend data
 
 ---
@@ -22,7 +22,7 @@ As the Data Analyst on this engagement, I was asked to:
 | Gross margin declined 4.2 pts over 12 months | Revenue up 8%, but COGS grew 13% |
 | 3 of 8 cost centers operating above budget | Facilities, Labor (Overtime), and Freight |
 | Freight costs up 31% YoY | Carrier mix shifted to spot rates during peak season |
-| Labor overtime surged Q3–Q4 | Tied to understaffing + demand spike — not planned |
+| Labor overtime surged Q3–Q4 | Tied to understaffing + demand spike, not planned |
 | SG&A growing faster than revenue | 11% growth vs. 8% revenue growth |
 
 ---
@@ -74,20 +74,20 @@ project2-financial-analyzer/
 
 ## 🛠️ Tools & Technologies
 
-- **SQL Server** — P&L queries, variance analysis, window functions
-- **Python (pandas, matplotlib, Prophet)** — EDA, trend analysis, forecasting
-- **Power BI + DAX** — financial dashboard, waterfall charts, forecast visuals
-- **DAX** — YoY variance, running totals, cost center budget flags
+- **SQL Server**, P&L queries, variance analysis, window functions
+- **Python (pandas, matplotlib, Prophet)**, EDA, trend analysis, forecasting
+- **Power BI + DAX**, financial dashboard, waterfall charts, forecast visuals
+- **DAX**, YoY variance, running totals, cost center budget flags
 
 ---
 
 ## 📊 Dashboard Pages
 
-1. **P&L Summary** — Revenue, COGS, Gross Profit, EBITDA with YoY comparison
-2. **Cost Center Drill-Down** — Budget vs. Actual by cost center with variance flags
-3. **Margin Analysis** — Gross and net margin trend with contributing factors
-4. **Freight & Labor Deep Dive** — The two biggest cost drivers analyzed in detail
-5. **2-Quarter Forecast** — Revenue and cost forecast with confidence intervals
+1. **P&L Summary**, Revenue, COGS, Gross Profit, EBITDA with YoY comparison
+2. **Cost Center Drill-Down**, Budget vs. Actual by cost center with variance flags
+3. **Margin Analysis**, Gross and net margin trend with contributing factors
+4. **Freight & Labor Deep Dive**, The two biggest cost drivers analyzed in detail
+5. **2-Quarter Forecast**, Revenue and cost forecast with confidence intervals
 
 ---
 
@@ -96,11 +96,11 @@ project2-financial-analyzer/
 See [`powerbi/dax_measures.md`](powerbi/dax_measures.md) for full documentation.
 
 Highlights:
-- `Gross Margin %` — dynamic with time intelligence
-- `YoY Revenue Variance` — % and absolute change
-- `Budget Variance` — actual vs. budget with over/under flag
-- `Running Total Cost` — cumulative cost by month for waterfall
-- `Forecast Revenue` — blended actual + forecasted value
+- `Gross Margin %`, dynamic with time intelligence
+- `YoY Revenue Variance`, % and absolute change
+- `Budget Variance`, actual vs. budget with over/under flag
+- `Running Total Cost`, cumulative cost by month for waterfall
+- `Forecast Revenue`, blended actual + forecasted value
 
 ---
 
@@ -109,7 +109,7 @@ Highlights:
 - Identified **$600K+ in avoidable costs** across freight and overtime
 - Dashboard replaced monthly manual Excel P&L reports (**~20 hrs/month saved**)
 - Margin forecast accuracy within **±1.2 pts** over validation period
-- Cost center accountability improved — **2 of 3 over-budget centers corrected** within 60 days of dashboard deployment
+- Cost center accountability improved, **2 of 3 over-budget centers corrected** within 60 days of dashboard deployment
 
 ---
 
